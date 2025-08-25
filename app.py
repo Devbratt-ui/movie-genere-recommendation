@@ -1,8 +1,4 @@
-'''
-Author: Bappy Ahmed
-Email: entbappy73@gmail.com
-Date: 2021-Nov-15
-'''
+
 
 import pickle
 import streamlit as st
@@ -59,4 +55,5 @@ if st.button('Show Recommendation'):
     with col5:
         st.text(recommended_movie_names[4])
         st.image(recommended_movie_posters[4])
+
 
